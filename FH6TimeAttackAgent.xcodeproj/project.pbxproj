@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10A000000000000000000101 /* FH6TimeAttackAgentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A000000000000000000201 /* FH6TimeAttackAgentApp.swift */; };
+		10A000000000000000000102 /* FH6TelemetryPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A000000000000000000202 /* FH6TelemetryPacket.swift */; };
+		10A000000000000000000103 /* TimeAttackSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A000000000000000000203 /* TimeAttackSession.swift */; };
+		10A000000000000000000104 /* LapAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A000000000000000000204 /* LapAnalysis.swift */; };
+		10A000000000000000000105 /* TelemetryReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A000000000000000000205 /* TelemetryReceiver.swift */; };
+		10A000000000000000000106 /* TimeAttackStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A000000000000000000206 /* TimeAttackStore.swift */; };
+		10A000000000000000000107 /* TelemetryDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A000000000000000000207 /* TelemetryDashboardView.swift */; };
+		10A000000000000000000108 /* TimeAttackPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A000000000000000000208 /* TimeAttackPanel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10A000000000000000000200 /* FH6TimeAttackAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FH6TimeAttackAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A000000000000000000201 /* FH6TimeAttackAgentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FH6TimeAttackAgentApp.swift; sourceTree = "<group>"; };
+		10A000000000000000000202 /* FH6TelemetryPacket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/FH6TelemetryPacket.swift; sourceTree = "<group>"; };
+		10A000000000000000000203 /* TimeAttackSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/TimeAttackSession.swift; sourceTree = "<group>"; };
+		10A000000000000000000204 /* LapAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/LapAnalysis.swift; sourceTree = "<group>"; };
+		10A000000000000000000205 /* TelemetryReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/TelemetryReceiver.swift; sourceTree = "<group>"; };
+		10A000000000000000000206 /* TimeAttackStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/TimeAttackStore.swift; sourceTree = "<group>"; };
+		10A000000000000000000207 /* TelemetryDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/TelemetryDashboardView.swift; sourceTree = "<group>"; };
+		10A000000000000000000208 /* TimeAttackPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/TimeAttackPanel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10A000000000000000000300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10A000000000000000000400 = {
+			isa = PBXGroup;
+			children = (
+				10A000000000000000000401 /* FH6TimeAttackAgent */,
+				10A000000000000000000402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10A000000000000000000401 /* FH6TimeAttackAgent */ = {
+			isa = PBXGroup;
+			children = (
+				10A000000000000000000201 /* FH6TimeAttackAgentApp.swift */,
+				10A000000000000000000202 /* FH6TelemetryPacket.swift */,
+				10A000000000000000000203 /* TimeAttackSession.swift */,
+				10A000000000000000000204 /* LapAnalysis.swift */,
+				10A000000000000000000205 /* TelemetryReceiver.swift */,
+				10A000000000000000000206 /* TimeAttackStore.swift */,
+				10A000000000000000000207 /* TelemetryDashboardView.swift */,
+				10A000000000000000000208 /* TimeAttackPanel.swift */,
+			);
+			path = FH6TimeAttackAgent;
+			sourceTree = "<group>";
+		};
+		10A000000000000000000402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10A000000000000000000200 /* FH6TimeAttackAgent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10A000000000000000000500 /* FH6TimeAttackAgent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A000000000000000000700 /* Build configuration list for PBXNativeTarget "FH6TimeAttackAgent" */;
+			buildPhases = (
+				10A000000000000000000600 /* Sources */,
+				10A000000000000000000300 /* Frameworks */,
+				10A000000000000000000601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FH6TimeAttackAgent;
+			productName = FH6TimeAttackAgent;
+			productReference = 10A000000000000000000200 /* FH6TimeAttackAgent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10A000000000000000000900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					10A000000000000000000500 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 10A000000000000000000901 /* Build configuration list for PBXProject "FH6TimeAttackAgent" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10A000000000000000000400;
+			productRefGroup = 10A000000000000000000402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10A000000000000000000500 /* FH6TimeAttackAgent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10A000000000000000000601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10A000000000000000000600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A000000000000000000101 /* FH6TimeAttackAgentApp.swift in Sources */,
+				10A000000000000000000102 /* FH6TelemetryPacket.swift in Sources */,
+				10A000000000000000000103 /* TimeAttackSession.swift in Sources */,
+				10A000000000000000000104 /* LapAnalysis.swift in Sources */,
+				10A000000000000000000105 /* TelemetryReceiver.swift in Sources */,
+				10A000000000000000000106 /* TimeAttackStore.swift in Sources */,
+				10A000000000000000000107 /* TelemetryDashboardView.swift in Sources */,
+				10A000000000000000000108 /* TimeAttackPanel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		10A000000000000000000701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "FH6 Time Attack Agent";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mokudo.FH6TimeAttackAgent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		10A000000000000000000702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "FH6 Time Attack Agent";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mokudo.FH6TimeAttackAgent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10A000000000000000000902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			};
+			name = Debug;
+		};
+		10A000000000000000000903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10A000000000000000000700 /* Build configuration list for PBXNativeTarget "FH6TimeAttackAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A000000000000000000701 /* Debug */,
+				10A000000000000000000702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10A000000000000000000901 /* Build configuration list for PBXProject "FH6TimeAttackAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A000000000000000000902 /* Debug */,
+				10A000000000000000000903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10A000000000000000000900 /* Project object */;
+}
